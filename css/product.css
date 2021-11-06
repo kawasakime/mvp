@@ -1,0 +1,175 @@
+.product-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.product-wrapper .title {
+    height: 50px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.03);
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    margin: 30px 0;
+}
+
+.photos {
+    display: flex;
+    
+}
+
+.product {
+    display: flex;
+    position: relative;
+}
+
+.little-photos {
+    display: flex;
+    flex-direction: column;
+}
+
+.little-photos img {
+    height: 80px;
+    margin-bottom: 5px;
+}
+
+.little-photos img:first-child {
+    border: solid 2px rgb(69, 129, 219);
+    border-radius: 5px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.price-block {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.main-photo {
+    height: 400px;
+}
+
+.add-favorite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.d18 {
+    position: relative;
+    width: 50px; 
+    height: 26px;
+}
+
+.d18:before, .d18:after {
+    content: "";
+    position: absolute; 
+    left: 20px; 
+    top: 0;
+    width: 20px; 
+    height: 30px;
+    background: #EE4156;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg); 
+    transform-origin: 0 100%;
+}
+
+.d18:after {
+    left: 0;
+    transform: rotate(45deg); 
+    transform-origin: 100% 100%;
+}
+
+.descr {
+    padding: 15px 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.description {
+    font-size: 14px;
+}
+
+.title-2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.price-block .right {
+    display: flex;
+}
+
+.teh {
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    width: 100%;
+    padding: 15px 0px;
+}
+
+td {
+    width: 50%;
+    margin: 15px 0;
+    padding: 5px 10px;
+}
+
+tr:nth-child(odd) {
+    background: rgb(225, 244, 255);
+}
+
+.raiting {
+    display: flex;
+    align-items: center;
+}
+.raiting p {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.rating-mini {
+	display: inline-block;
+	font-size: 0;
+}
+
+.rating-mini span {
+	padding: 0;
+	font-size: 30px;
+	line-height: 1;
+	color: lightgrey;
+}
+
+.rating-mini > span:before {
+	content: '★';
+}
+
+.rating-mini > span.active {
+	color: gold;
+}
+
+.delivery {
+    font-size: 14px;
+    color: rgba(0,0,0,0.5);
+}

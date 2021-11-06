@@ -1,0 +1,136 @@
+.all-categories {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.categories-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.choice-category {
+    height: 80px;
+    width: 320px;
+    /* background: rgba(0, 0, 0, 0.05); */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.choice-category img {
+    width: 100px;
+    /* background: #fff; */
+    height: 80px;
+}
+
+.choice-category div {
+    font-size: 16px;
+    /* font-weight: bold; */
+    margin-left: 10px;
+}
+
+.choice-category a {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+}
+.choice-category a:hover {
+    text-decoration: underline;
+}
+
+.last-cat {
+    justify-self: flex-start;
+}
+
+.active a{
+    font-weight: bold;
+    color: rgb(69, 129, 219);
+}
+
+.active a:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+.list-products {
+    display: flex;
+    justify-content: center;
+
+}
+
+.list-products .title {
+    height: 50px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.03);
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.sort {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.sort-choice {
+    display: flex;
+}
+
+.sort-choice div {
+    margin: 0 12px;
+}
+
+.sort-choice div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.sort-active { color:  rgb(69, 129, 219); }
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product {
+    width: 320px;
+    height: 450px;
+    border: solid 1px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.product:hover {
+    cursor: pointer;
+    scale: 1.02;
+}
+
+.product img {
+    width: 75%;
+}
+
+.favorite {
+    transform: scale(1.2);
+    color: red;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.descr {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.price {
+    font-size: 23px;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <title>Корзина</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <nav>
+                <div class="left-btns">
+                    <div class="btn home"><a href="index.html"><img src="img/home.png" alt=""></a></div>
+                    <div class="btn"><a href="catalog.html"><img src="img/list.png" alt="" class="btn-img">Каталог</a></div>
+                </div>
+                <div class="search">
+                    <img src="img/search.png" alt="">
+                    <input type="text">
+                </div>
+                <div class="right-btns">
+                    <div class="btn"><a href=""><img src="img/feedback.png" alt="" class="btn-img"> Отзывы</a></div>
+                    <div class="btn"><a href="cart.html"><img src="img/shopping-cart.png" alt="" class="btn-img"> Корзина</a></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="cart">
+        <div class="wrapper cart-content">
+            <div class="title">Корзина</div>
+            <div class="two-blocks">
+                <div class="cart-products">
+                    <div class="item">
+                        <img src="img/robot1.jpg" alt="">
+                        <div class="name">Roomba 698</div>
+                        <div class="descr">робот-пылесос для сухой уборки</div>
+                        <div class="availability">Наличие: <b>В наличии</b></div>
+                        <div class="price">44 990₽</div>
+                        <div class="count">
+                            <div class="edit-count left">-</div>
+                            <input type="text" value="1">
+                            <div class="edit-count right">+</div>
+                        </div>
+                        <div class="btn-remove">Удалить</div>
+                    </div>
+                    <div class="item">
+                        <img src="img/robot1.jpg" alt="">
+                        <div class="name">Roomba 698</div>
+                        <div class="descr">робот-пылесос для сухой уборки</div>
+                        <div class="availability">Наличие: <b>В наличии</b></div>
+                        <div class="price">44 990₽</div>
+                        <div class="count">
+                            <div class="edit-count left">-</div>
+                            <input type="text" value="1">
+                            <div class="edit-count right">+</div>
+                        </div>
+                        <div class="btn-remove">Удалить</div>
+                    </div>
+                    <div class="item">
+                        <img src="img/robot1.jpg" alt="">
+                        <div class="name">Roomba 698</div>
+                        <div class="descr">робот-пылесос для сухой уборки</div>
+                        <div class="availability">Наличие: <b>В наличии</b></div>
+                        <div class="price">44 990₽</div>
+                        <div class="count">
+                            <div class="edit-count left">-</div>
+                            <input type="text" value="1">
+                            <div class="edit-count right">+</div>
+                        </div>
+                        <div class="btn-remove">Удалить</div>
+                    </div>
+                    <div class="amount">Товаров: 3</div>
+                </div>
+                <div class="order">
+                    <div class="result">Итого: <b>134 970₽</b></div>
+                    <div class="btn buy place-order"><a href="#">Оформить заказ</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="wrapper footer-blocks">
+            <div class="shop-name">
+                Интернет магазин RCleaner
+            </div>
+            <div class="btn-links">
+                <a href="">Каталог товаров</a>
+                <a href="">Корзина</a>
+                <a href="">Новости</a>
+                <a href="">О нас</a>
+                <a href="">Контакты</a>
+            </div>
+            <div class="shop-contants">
+                <a href="">Заказать звонок</a>
+                <div class="nubmer">Наш номер телефона: <b>+7999999999</b></div>
+                <div class="mail">Наша почта: <b>shop@rcleaner.ru</b></div>
+            </div>
+        </div>
+    </footer>
+    <div class="modalPanel">
+        <div class="order-panel">
+            <div class="panel">
+                <div class="close">×</div>
+                <div class="title">Заполните данные,<br><span>чтобы мы с вами связались</span></div>
+                <div class="first_name">
+                    Ваше имя:<br>
+                    <input type="text">
+                </div>
+                <div class="email">
+                    Ваш email:<br>
+                    <input type="text">
+                </div>
+                <div class="number">
+                    Ваш телефон:<br>
+                    <input type="text">
+                </div>
+                <div class="btn buy send-data"><a href="">Отправить данные</a></div>
+            </div>
+        </div>
+    </div>
+    <script src="cart.js"></script>
+</body>
+</html>
