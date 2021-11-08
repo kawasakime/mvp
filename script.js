@@ -13,7 +13,7 @@ const products = document.querySelectorAll('.product');
 products.forEach(e => {
     e.addEventListener('click', (t)=> {
         if (t.target.tagName != "A") {
-            window.open("/product.html", '_self')
+            window.open("product.html", '_self')
         }
     });
 })
