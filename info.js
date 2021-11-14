@@ -18,11 +18,11 @@ window.addEventListener('DOMContentLoaded', function() {
         product.innerHTML = `
                     <div class="photos">
                         <div class="little-photos">
-                            <img src="/img/${productId}/${ourObject['imgs'][0]}" alt="">
-                            <img src="/img/${productId}/${ourObject['imgs'][1]}" alt="">
-                            <img src="/img/${productId}/${ourObject['imgs'][2]}" alt="">
+                            <img src="../img/${productId}/${ourObject['imgs'][0]}" alt="">
+                            <img src="../img/${productId}/${ourObject['imgs'][1]}" alt="">
+                            <img src="../img/${productId}/${ourObject['imgs'][2]}" alt="">
                         </div>
-                        <img src="/img/${productId}/${ourObject['imgs'][0]}" alt="" class="main-photo">
+                        <img src="../img/${productId}/${ourObject['imgs'][0]}" alt="" class="main-photo">
                     </div>
                     <div class="product-info">
                         <div class="descr">
@@ -73,7 +73,7 @@ window.addEventListener('DOMContentLoaded', function() {
     setActivePhoto()
 
     function changeLargePhoto(i) {
-        largePhoto.src = `/img/${productId}/${ourObject["imgs"][i]}`;
+        largePhoto.src = `../img/${productId}/${ourObject["imgs"][i]}`;
     }
 
     littlePhotos.forEach((photo, i) => {
