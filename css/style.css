@@ -7,10 +7,6 @@
     box-sizing: border-box;
 }
 
-body {
-    /* background: rgba(0, 0, 0, 0.03); */
-}
-
 .wrapper {
     width: 1000px;
 }
@@ -125,18 +121,26 @@ nav {
 .card-1 {
     height: 350px;
     width: 250px;
-    background: rgba(0, 0, 0, 0.025);
+    /* background: rgba(0, 0, 0, 0.025); */
     border-radius: 25px;
+    border: solid 1px rgb(204, 204, 204);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     padding-bottom: 10px;
     margin: 0 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 .card-1 img{
     height: 200px;
+}
+
+.card-1:hover {
+    cursor: pointer;
+    scale: 1.015;
 }
 
 .price-last {
@@ -155,10 +159,13 @@ nav {
 
 .buy {
     background: rgb(69, 129, 219);
-}
-
-.buy a {
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    transition: background 0.3s;
+    background: #355eb8;
 }
 
 .top-categories {display: flex; justify-content: center;}
@@ -182,6 +189,10 @@ nav {
     grid-template-rows: 1fr 1fr;
     row-gap: 20px;
     column-gap: 20px;
+}
+
+.categories > div:hover {
+    cursor: pointer;
 }
 
 .category-1 {
@@ -445,7 +456,7 @@ footer {
 .btn-links {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .btn-links a {

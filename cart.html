@@ -21,8 +21,8 @@
                     <input type="text">
                 </div>
                 <div class="right-btns">
-                    <div class="btn"><a href=""><img src="img/feedback.png" alt="" class="btn-img"> Отзывы</a></div>
-                    <div class="btn"><a href="cart.html"><img src="img/shopping-cart.png" alt="" class="btn-img"> Корзина</a></div>
+                    <div class="btn"><a href="reviews.html"><img src="img/feedback.png" alt="" class="btn-img"> Отзывы</a></div>
+                    <div class="btn cart-btn"><a href="cart.html"><img src="img/shopping-cart.png" alt="" class="btn-img"> Корзина</a></div>
                 </div>
             </nav>
         </div>
@@ -33,7 +33,7 @@
             <div class="title">Корзина</div>
             <div class="two-blocks">
                 <div class="cart-products">
-                    <div class="item">
+                    <!-- <div class="item">
                         <img src="img/robot1.jpg" alt="">
                         <div class="name">Roomba 698</div>
                         <div class="descr">робот-пылесос для сухой уборки</div>
@@ -71,12 +71,11 @@
                             <div class="edit-count right">+</div>
                         </div>
                         <div class="btn-remove">Удалить</div>
-                    </div>
-                    <div class="amount">Товаров: 3</div>
+                    </div> -->
                 </div>
                 <div class="order">
                     <div class="result">Итого: <b>134 970₽</b></div>
-                    <div class="btn buy place-order"><a href="#">Оформить заказ</a></div>
+                    <div class="btn place-order">Оформить заказ</div>
                 </div>
             </div>
         </div>
@@ -88,14 +87,12 @@
                 Интернет магазин RCleaner
             </div>
             <div class="btn-links">
-                <a href="">Каталог товаров</a>
-                <a href="">Корзина</a>
-                <a href="">Новости</a>
-                <a href="">О нас</a>
-                <a href="">Контакты</a>
+                <a href="catalog.html">Каталог товаров</a>
+                <a href="cart.html">Корзина</a>
+                <a href="news.html">Новости</a>
             </div>
             <div class="shop-contants">
-                <a href="">Заказать звонок</a>
+                <div><b>Наши данные:</b></div>
                 <div class="nubmer">Наш номер телефона: <b>+7999999999</b></div>
                 <div class="mail">Наша почта: <b>shop@rcleaner.ru</b></div>
             </div>
@@ -118,10 +115,12 @@
                     Ваш телефон:<br>
                     <input type="text">
                 </div>
-                <div class="btn buy send-data"><a href="">Отправить данные</a></div>
+                <div class="btn send-data">Отправить данные</div>
             </div>
         </div>
     </div>
     <script src="cart.js"></script>
+    <script src="buy.js"></script>
+    <script src="cartProductsAmount.js"></script>
 </body>
 </html>

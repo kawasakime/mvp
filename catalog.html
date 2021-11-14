@@ -22,37 +22,37 @@
                     <input type="text">
                 </div>
                 <div class="right-btns">
-                    <div class="btn"><a href=""><img src="img/feedback.png" alt="" class="btn-img"> Отзывы</a></div>
-                    <div class="btn"><a href="cart.html"><img src="img/shopping-cart.png" alt="" class="btn-img"> Корзина</a></div>
+                    <div class="btn"><a href="reviews.html"><img src="img/feedback.png" alt="" class="btn-img"> Отзывы</a></div>
+                    <div class="btn cart-btn"><a href="cart.html"><img src="img/shopping-cart.png" alt="" class="btn-img"> Корзина</a></div>
                 </div>
             </nav>
         </div>
     </header>
     <div class="all-categories">
         <div class="wrapper categories-block">
-            <div class="choice-category active">
+            <div class="choice-category active" data-type="dry">
                 <img src="img/default.png" alt="">
-                <div><a href="">Роботы пылесосы</a></div>
+                <div><a href="#">Роботы пылесосы</a></div>
             </div>
-            <div class="choice-category">
+            <div class="choice-category"  data-type='wet'>
                 <img src="img/water.png" alt="">
-                <div><a href="">Роботы для влажной уборкой</a></div>
+                <div><a href="#">Роботы для влажной уборкой</a></div>
             </div>
-            <div class="choice-category">
+            <div class="choice-category" data-type='lawn'>
                 <img src="img/lawn.png" alt="">
-                <div><a href="">Роботы газонокосилки</a></div>
+                <div><a href="#">Роботы газонокосилки</a></div>
             </div>
-            <div class="choice-category">
+            <div class="choice-category" data-type="swimmingpool">
                 <img src="img/swimmingpool.png" alt="">
-                <div><a href="">Роботы для бассейнов</a></div>
+                <div><a href="#">Роботы для бассейнов</a></div>
             </div>
-            <div class="choice-category">
+            <div class="choice-category" data-type="window">
                 <img src="img/window.png" alt="">
-                <div><a href="">Роботы для окон</a></div>
+                <div><a href="#">Роботы для окон</a></div>
             </div>
-            <div class="choice-category last-cat">
+            <div class="choice-category last-cat" data-type="acses">
                 <img src="img/acses.jpg" alt="">
-                <div><a href="">Аксессуары</a></div>
+                <div><a href="#">Аксессуары</a></div>
             </div>
         </div>
     </div>
@@ -60,18 +60,18 @@
         <div class="wrapper">
             <div class="title">Роботы пылесосы</div>
             <div class="sort">
-                <div class="sort-choice">
+                <!-- <div class="sort-choice">
                     <div>Сортировать:</div>
                     <div class="sort-active">По цене &#9650;</div>
                     <div>По названию</div>
                     <div>По рейтингу</div>
-                </div>
+                </div> -->
                 <div class="products-amount">
-                    Найдено товаров: 30
+                    Найдено товаров: <span>30</span>
                 </div>
             </div>
             <div class="products">
-                <div class="product">
+                <!-- <div class="product">
                     <img src="img/product.png" alt="">
                     <div class="name">Roomba 698</div>
                     <div class="descr">робот-пылесос для сухой уборки </div>
@@ -91,35 +91,7 @@
                     <div class="descr">робот-пылесос для сухой уборки </div>
                     <div class="price">44 990₽</div>
                     <div class="btn buy"><a href="#">В корзину</a></div>
-                </div>
-                <div class="product">
-                    <img src="img/product.png" alt="">
-                    <div class="name">Roomba 698</div>
-                    <div class="descr">робот-пылесос для сухой уборки </div>
-                    <div class="price">44 990₽</div>
-                    <div class="btn buy"><a href="#">В корзину</a></div>
-                </div>
-                <div class="product">
-                    <img src="img/product.png" alt="">
-                    <div class="name">Roomba 698</div>
-                    <div class="descr">робот-пылесос для сухой уборки </div>
-                    <div class="price">44 990₽</div>
-                    <div class="btn buy"><a href="#">В корзину</a></div>
-                </div>
-                <div class="product">
-                    <img src="img/product.png" alt="">
-                    <div class="name">Roomba 698</div>
-                    <div class="descr">робот-пылесос для сухой уборки </div>
-                    <div class="price">44 990₽</div>
-                    <div class="btn buy"><a href="#">В корзину</a></div>
-                </div>
-                <div class="product">
-                    <img src="img/product.png" alt="">
-                    <div class="name">Roomba 698</div>
-                    <div class="descr">робот-пылесос для сухой уборки </div>
-                    <div class="price">44 990₽</div>
-                    <div class="btn buy"><a href="#">В корзину</a></div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -129,19 +101,19 @@
                 Интернет магазин RCleaner
             </div>
             <div class="btn-links">
-                <a href="">Каталог товаров</a>
-                <a href="">Корзина</a>
-                <a href="">Новости</a>
-                <a href="">О нас</a>
-                <a href="">Контакты</a>
+                <a href="catalog.html">Каталог товаров</a>
+                <a href="cart.html">Корзина</a>
+                <a href="news.html">Новости</a>
             </div>
             <div class="shop-contants">
-                <a href="">Заказать звонок</a>
+                <div><b>Наши данные:</b></div>
                 <div class="nubmer">Наш номер телефона: <b>+7999999999</b></div>
                 <div class="mail">Наша почта: <b>shop@rcleaner.ru</b></div>
             </div>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="catalog.js"></script>
+    <script src="buy.js"></script>
+    <script src="cartProductsAmount.js"></script>
 </body>
 </html>

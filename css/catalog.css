@@ -72,7 +72,7 @@
 
 .sort {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin-bottom: 30px;
 }
 
@@ -116,6 +116,7 @@
 
 .product img {
     width: 75%;
+    height: 200px;
 }
 
 .favorite {
@@ -125,10 +126,14 @@
 
 .name {
     font-size: 20px;
+    margin: 0 10px;
+    text-align: center;
 }
 
 .descr {
     color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 0 10px;
 }
 
 .price {
