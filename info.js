@@ -42,7 +42,7 @@ window.addEventListener('DOMContentLoaded', function() {
                         <div class="price-block" data-product-id="${productId}">
                             
                             <div class="price">${ourObject['nowPrice']}₽</div>
-                            <div class="btn buy">Купить</div>
+                            <div class="btn buy">В корзину</div>
                             <div class="delivery"><u>Бесплатная доставка</u> по всей россии</div>
                         </div>
                     </div>
