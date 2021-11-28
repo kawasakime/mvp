@@ -113,6 +113,7 @@ for i in range(21):
             </div>
         </div>
     </footer>
+    <script src="../database.js"></script>
     <script src="../info.js"></script>
     <script src="../buy.js"></script>
     <script src="../cartProductsAmount.js"></script>
