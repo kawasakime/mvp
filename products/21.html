@@ -1,6 +1,4 @@
-for i in range(21):
-	myFile = open(f'{i+1}.html', 'w+', encoding='UTF-8')
-	myFile.write(f"""
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +9,8 @@ for i in range(21):
     <link rel="stylesheet" href="../css/product.css">
     <title></title>
 </head>
-<body data-product-id='{i+1}'\n> """ + """
+<body data-product-id='21'
+> 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -25,8 +24,9 @@ for i in range(21):
         });
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/86593878" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->\n
-    """ + """
+    <!-- /Yandex.Metrika counter -->
+
+    
     <header>
         <div class="wrapper">
             <nav>
@@ -118,6 +118,4 @@ for i in range(21):
     <script src="../cartProductsAmount.js"></script>
 </body>
 </html>
-		""");
-	myFile.close();
-	print('OK');
+		
