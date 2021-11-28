@@ -13,6 +13,7 @@ window.addEventListener('DOMContentLoaded', function() {
     const ourObject = productList[productId];
 
     function editPage() {
+        document.querySelector('title').innerHTML = ourObject['name'];
         title.innerHTML = ourObject['name'];
 
         product.innerHTML = `
