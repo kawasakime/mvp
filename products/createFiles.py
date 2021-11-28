@@ -1,4 +1,4 @@
-for i in range(19):
+for i in range(20):
 	myFile = open(f'{i+1}.html', 'w+', encoding='UTF-8')
 	myFile.write(f"""
 <!DOCTYPE html>
@@ -9,7 +9,7 @@ for i in range(19):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/product.css">
-    <title>Roomba 698</title>
+    <title></title>
 </head>
 <body data-product-id='{i+1}'\n> """ + """
     <!-- Yandex.Metrika counter -->
